@@ -1,0 +1,245 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agare Nur Mesjid</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: black;
+            background-color: #ff00cc;
+            background-size: cover;
+        }
+
+        header {
+            background-color: #0075f3;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav {
+            background: #25D366;
+            padding: 1rem 0;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            transition: color 0.2s;
+        }
+
+        section {
+            padding: 20px;
+            margin: 20px;
+            background: rgb(0, 255, 221);
+            border-radius: 5px;
+            box-shadow: 0 0 20px yellow;
+        }
+
+        .gallery-grid, .design-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+            gap: 10px;
+        }
+
+        .gallery-grid img, .design-grid img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+
+        .video-container {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+        button {
+            padding: 12px 24px;
+            font-size: 16px;
+            background-color: #fb0808;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .design-grid{
+            font-size: 50px;
+        }
+        #contact  a{
+            font-size: 30px;
+        }
+
+        footer {
+            background-color: #343a40;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+
+        @media (max-width: 600px) {
+            .video-container iframe {
+                width: 100%;
+                height: 150px;
+            }
+
+            nav ul li {
+                display: block;
+                margin: 10px 0;
+            }
+
+            header {
+                display: block;
+                margin: 10px 0;
+            }
+
+            .gallery-grid, .design-grid {
+                grid-template-columns: 1fr; /* Single column for small screens */
+            }
+        }
+
+        @media (min-width: 768px) {
+            .gallery-grid, .design-grid {
+                grid-template-columns: repeat(2, 1fr); /* Two columns for larger devices */
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>ኑ የአጋሬ ኑር መስጂድ በጋራ እንገንባ  ጀዛከላሁኸይር</h1> 
+
+        <h2>"لنَبْنِ مسجد أغاري نور معًا، جزاك الله خيرًا" <br>
+            Let's build Agare Nur Mosque together Jezakellah Heyren</h2>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#design">ዲዛይን</a></li> <!-- Link to new section -->
+             <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#videos">Videos</a></li>
+                <li><a href="#support">Support</a></li>
+                <li><a href="#contact">ለበለጠ መረጃ </a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about">
+        <h2>About Agare Nur Mesjid</h2>(ስለ አጋሬ ኑር መስኪድና መድረሳ በትንሹ)
+        <h1>"በዱንያ የአላህን ቤት የገነባ አላህ በጀነት ቤት ይገነባለታል"</h1>
+        <p>አጋሬ ኑርመስኪድና መድረሳ የሚገኘው በደቡብ ክልል እኖር ወረዳ አጋሬ ቀበሌ ገበሬ ማህበር ውስጥ የሚገኝ ሲሆን <br> መሠራት የተጀመረው በ2016.E,C አሁን ያለበት የግንባት ሁኔታ 35% ያክሉ ተገንበቶዋል ሀላፊዬቹም ሙራድ አባዲማ ሸምሱ አህመዲንና ሀይደር ከድር ናቸው።</p>
+    </section>
+
+    <section id="design">
+        <h2>የአጋሬ ኑር መሲጅድ ዲዛይን <strong>Designs  of Nur Mesijjid</strong></h2>
+        <div class="design-grid">
+            <img src="photo_6_2024-09-25_05-18-51.jpg" alt="Design Image">
+         <a href="https://t.me/Agarenure_mesjid2013/2887">open on telegram</a>
+        </div>
+    </section>
+
+
+<section id="gallery">
+        <h2>መስጅዱ አሁን ያለበት ደረጃ (2017) </h2>
+        <div class="gallery-grid">
+            <img src="photo_5_2024-09-24_22-48-31.jpg" alt="Gallery Image 4">
+            <img src="photo_3_2024-09-24_22-48-31.jpg" alt="Gallery Image 3">
+            <img src="photo_1_2024-09-24_22-48-31.jpg" alt="Gallery Image 2">
+            <img src="photo_2024-09-24_21-53-22.jpg" alt="Gallery Image 3">
+        </div>
+    </section>
+
+    <section id="videos">
+        <h2>Videos</h2>
+        <div class="video-container">
+            <!-- <iframe src="video_2024-09-24_22-51-52.mp4" frameborder="0" allowfullscreen></iframe>
+            <iframe src="video_2024-09-25_05-20-32.mp4" frameborder="0" allowfullscreen></iframe> -->
+            <iframe src="20240607_175032.mp4" frameborder="0" allowfullscreen></iframe>
+            <a href="https://t.me/Agarenure_mesjid2013/3278">video open on telegram</a>
+            <a href="https://t.me/Agarenure_mesjid2013/3278">video open on telegram</a>
+        </div>
+    </section>
+
+    <section id="support">
+        <h2></h2>
+        <h1>"በዱንያ የአላህን ቤት የገነባ አላህ በጀነት ቤት ይገነባለታል"</h1>
+
+
+        <br>
+                የነየትነውም ሆነ ያልነየትነውም ጉዳዩ የአላህ ቤት፣ የነገ ስንቃችን ነውና በተቻለን መጠን የምንችለው እናድርግ። 
+                ለኡስታዝ ወርሃዊ ደመውዝና ለመስጂዱና መድረሳ ግንባታ። 
+                <br>
+                የአጋሬ ኑር መስጂድና መድረሳ አካውንት 
+                <ol>
+                    <li>ለመስጁዱና መድረሳ ግንባታ 
+                        <br>✊) የንግድ ባንክ  1000536604573 እና
+                        <br>🕌 ሂጅራ ባንክ 1003258990001 ሙራድ አባዲማ፣ ከድር በሽርና ሙባረክ ኢብራሂም 
+                        <br>✊በንብ ባንክ 7000038408238 አብዱልፈታህ ተባረክ እና ሸምሱ አህመዲን። 
+                        <br>✊) ንግድ ባንክ 1000174092706 CBE  ሀይደር ከድር 
+                    </li>
+                    <li>ለኡስታዝ ደመውዝ 
+                        <br>🌽1004326970002 ሂጅራ ባንክ 
+                        <br>ሙባረክ ኢብራሂም ወይም ሰላሙ ተማም እና ወይም አብዱልፈታህ ተባረክ
+                        <br>🌽) በንግድ ባንክ 1000232908177  
+                        <br>በሙራድ አባዲማ እና ሸምሱ አህመዲን እና ተባረክ ያሲን 
+                        <br>🌽) በኦሮሚያ ባንክ 531170 ነው በሙራድ አባዲማ እና ሸምሱ አህመዲን እና ተባረክ ያሲን 
+                    </li>
+                </ol>
+                ኢኽላስ ያለው ስራ አላህ ያድርግልን። 
+        <h2>Support Agare Nur Mesjid</h2>
+        <p>Your contributions help us complete the construction and serve the community better. We appreciate any support you can provide.</p>
+
+<h3>How to Donate:</h3>
+        <p>You can make a donation through the following bank accounts:</p>
+        
+        <h4>For Construction and Community Support:</h4>
+        <ul>
+            <li>Nigd Bank: <strong>1000536604573</strong></li>
+            <li>Hijra Bank: <strong>1003258990001</strong> (Mubarek Abadim)</li>
+            <li>Nib Bank: <strong>7000038408238</strong> (Abdulfetah Tabarek and Shamsu Ahmedin)</li>
+            <li>Nigd Bank: <strong>1000174092706</strong> (CBE Hayder)</li>
+        </ul>
+        
+        <h4>For Monthly Support to Ustaz:</h4>
+        <ul>
+            <li>Hijra Bank: <strong>1004326970002</strong> (Mubarek Ibrahim or Selamu Temam or Abdulfetah Tabarek)</li>
+            <li>Business Bank: <strong>1000232908177</strong> (Mubarek Abadim and Shamsu Ahmedin)</li>
+            <li>Oromia Bank: <strong>531170</strong> (Mubarek Abadim and Shamsu Ahmedin)</li>
+        </ul>
+
+        <p>May Allah reward you for your generosity and good deeds!</p>
+        <button onclick="window.location.href='donate.html'">Donate</button>
+    </section>
+
+    <section id="contact">
+        <h2>ለበለጠ መረጃ For More Information</h2>
+ 
+        <a href="https://t.me/Agarenure_mesjid2013" target="_blank"><i class="fab fa-telegram"></i>አጋሬ ኑር መስጂድና መድረሳ</a>
+        <a href="https://t.me/Mubarak20175" target="_blank"><i class="fab fa-telegram"></i> Mubarek Ibrahim </a><br>
+        <a href="https://t.me/zede42" target="_blank"><i class="fab fa-telegram"></i> Zeki Deresse</a> <br>
+        <a href="https://t.me/allahoakbersubhanellah" target="_blank"><i class="fab fa-telegram"></i> Ustaz </a>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 AbdulKerim Jemal. All rights reserved.</p>
+    </footer>
+</body>
+</html> 
+
